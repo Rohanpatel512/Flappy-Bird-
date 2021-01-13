@@ -1,0 +1,32 @@
+body {
+  overflow: none;
+  margin: 0;
+  padding: 0;
+}
+
+.game-container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#board {
+  border: none;
+  border-radius: 5px;
+  background-color: skyblue;
+}
+
+.score-container {
+  margin-left: 47%;
+  margin-top: 12%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#start-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 12%;
+  position: absolute;
+}
